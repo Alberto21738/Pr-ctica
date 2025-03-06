@@ -1,0 +1,85 @@
+body {
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#titulo {
+    color: #D3D3D3;
+    background-color: #1F3B4D;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Coloca los botones en los extremos */
+}
+
+#titulo h1 {
+    flex-grow: 1; /* Permite que el título ocupe el espacio disponible */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina el margen para evitar desplazamientos */
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #515151;
+    width: 80%;
+}
+
+#fotopresentacion {
+    background-color: #1F3B4D;
+    border-radius: 50px;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+h2, h3, p, ul, label {
+    color: #c0c0c0;
+}
+
+#experiencia {
+    background-color: #4E5D6C;
+    border-radius: 50px;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+#contacto {
+    background-color: #1F3B4D;
+    border-radius: 50px;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+footer {
+    background-color: #4E5D6C;
+    border-radius: 30px;
+    color: #c0c0c0;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #4E5D6C;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+#titulo button:first-child {
+    margin-right: auto; /* Alinea el botón de "Regresar" a la izquierda */
+}
+
+#titulo button:last-child {
+    margin-left: auto; /* Alinea el botón de "Noticias" a la derecha */
+}
